@@ -254,10 +254,10 @@ share:
 # 百度、谷歌站长验证。填写 HTML 标签 content
 # Site Verification for Google and Baidu. HTML label content.
 baidu_site:
-google_site:
+google_site: mRjQM6azHRnllmCObIorLO1p8dqt92U33mbEzoA2HnU
 
 # Fill in Google Analytics tracking ID, #e.g. UA-XXXXX-X
-google_analytics:
+google_analytics: UA-17621945-1
 
 # 百度统计 http://sitecenter.baidu.com/sc-web/
 # 查看代码，填入 //hm.baidu.com/hm.js? 之后的内容
