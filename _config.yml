@@ -33,6 +33,9 @@ root_url:
 # Year of Site Creation | 网站成立年份
 since: 2009~2017
 
+# ICP for CN
+icp: 京ICP备10044755号
+
 # Social info. Bar | 社交信息展示
 ## Keep "mailto:" in Email | 设置 Email 时保留 "mailto:"
 ## Encrypt email 加密邮件地址 http://ctrlq.org/encode/
