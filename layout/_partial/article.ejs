@@ -23,7 +23,7 @@
     <div class="article-entry" itemprop="articleBody">
       <% if (index && (post.description || post.excerpt)){ %>
           <% if (post.description){ %>
-              <%- post.description %>
+              <%- post.content %>
           <% } else { %>
               <%- post.excerpt %>
           <% } %>
