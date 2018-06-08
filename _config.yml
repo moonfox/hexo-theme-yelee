@@ -31,7 +31,7 @@ favicon:
 root_url:
 
 # Year of Site Creation | 网站成立年份
-since: 2009~2017
+since: 2009~2018
 
 # ICP for CN
 icp: 京ICP备10044755号
@@ -180,17 +180,22 @@ limit_article_width:
 
 # 是否开启边栏多标签切换
 # Birdhouse button in left column
-tagcloud: true
+# 如果开启，标签云数据会在每个文章页被加载，造成每个文章页的size过太，
+# 且如果新增或删除了某个标签，所有文章页的上的标签云都会被更新，浪费aws流量
+tagcloud: false
 
 # Blogroll, Link exchange | 友情链接
-friends:
-  Hexo: https://hexo.io
-  GitHub: https://pages.github.com/
-#friends: false
+# friends:
+#   Hexo: https://hexo.io
+#   GitHub: https://pages.github.com/
+friends: false
 
 #是否开启“关于我”。
 # aboutme: 专注于前端
 aboutme: false
+
+# 是否显示移动版导航tag菜单(包含标签云/友情链接等)
+mobile_slider_trigger: false
 
 # Open link in a new tab | 是否在新窗口打开链接
 ## `global` 0: Set separately, 1: Open all in new 2: Open all in current

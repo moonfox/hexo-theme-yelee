@@ -1,6 +1,8 @@
 <nav id="mobile-nav">
       <div class="overlay">
+          <% if (theme.mobile_slider_trigger){ %>
           <div class="slider-trigger"></div>
+          <%}%>
           <h1 class="header-author js-mobile-header hide"><a href="/" title="回到主页"><%=theme.author%></a></h1>
       </div>
     <div class="intrude-less">
@@ -29,7 +31,7 @@
                             <%}%>
                         </ul>
             </nav>
-        </header>                
+        </header>
     </div>
     <link class="menu-list" tags="<%= __('index.tags') %>" friends="<%= __('index.friends') %>" about="<%= __('index.about') %>"/>
 </nav>
